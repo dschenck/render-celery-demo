@@ -16,7 +16,7 @@ services:
     name: app
     region: ohio
     env: python
-    plan: free
+    plan: starter
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn app:app"
     autoDeploy: false
